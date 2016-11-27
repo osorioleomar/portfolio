@@ -7,9 +7,9 @@
     <meta name="description" content="A site made to showcase some of my projects from learning web development. This will also serve as my portfolio and personal knowledgebase.">
     <meta name="author" content="Leomar F. Osorio">
 	<title>Home</title>
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url('../assets/css/bootstrap.min.css'); ?>">
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url('../assets/font-awesome/css/font-awesome.min.css'); ?>">
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url('../assets/css/style.css'); ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/font-awesome/css/font-awesome.min.css'); ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/style.css'); ?>">
 </head>
 <body>
 	<nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
@@ -24,10 +24,10 @@
 			</div><!-- /navbar-header -->
 			<div class="collapse navbar-collapse" id="navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Articles</a></li>
-					<li><a href="#">Projects</a></li>
-					<li><a href="#">Resume</a></li>
+					<li><a href="<?php echo base_url(); ?>">Home</a></li>
+					<li><a href="<?php echo base_url('index.php/articles'); ?>">Articles</a></li>
+					<li><a href="<?php echo base_url('index.php/projects'); ?>">Projects</a></li>
+					<li><a href="<?php echo base_url('index.php/resume'); ?>">Resume</a></li>
 				</ul>
 			</div>
 		</div>
